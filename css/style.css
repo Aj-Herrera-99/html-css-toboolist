@@ -145,6 +145,9 @@ body {
 .ml-thin-spacing{
     margin-left: 10px;
 }
+.mr-thin-spacing{
+    margin-right: 5px;
+}
 /* container */
 .container {
     /* border: 2px solid red; */
