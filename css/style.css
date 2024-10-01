@@ -8,6 +8,7 @@ body {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
+    height: 100vh;
 }
 
 /* text format */
@@ -132,13 +133,20 @@ body {
     line-height: 20px;
 }
 
-.mb-spacing{
+.mb-large-spacing{
+    margin-bottom: 50px;
+}
+.mb-medium-spacing{
     margin-bottom: 20px;
+}
+
+.ml-medium-spacing{
+    margin-left: 20px;
 }
 
 /* container */
 .container {
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 
@@ -154,17 +162,21 @@ h1 {
 
 /* main */
 .list-container {
-    border: 2px solid green;
-    width: 70%;
+    /* border: 2px solid green; */
+    max-width: 400px;
     margin: 0 auto;
     padding: 10px 30px;
 }
 
+.list-container div {
+    margin-bottom: 10px;
+}
+
 .buttons-container{
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
 }
 
 .task-container{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     /* margin: 50px 20px; */
 }
