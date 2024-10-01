@@ -10,6 +10,10 @@ body {
     font-style: normal;
 }
 
+ul li {
+    list-style: none;
+}
+
 /* text format */
 .text-dark-grey {
     color: #444851;
@@ -172,9 +176,11 @@ h1 {
     margin-left: 5px;
 }
 
-.task-container > div > div {
-    margin-bottom: 10px;
+ul li {
+    margin-bottom: 8px;
+    margin-left: 5px;
 }
+
 
 .task-container h2 {
     margin-bottom: 10px;
