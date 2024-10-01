@@ -134,7 +134,7 @@ body {
     margin-bottom: 80px;
 }
 .mb-medium-spacing{
-    margin-bottom: 25px;
+    margin-bottom: 605px;
 }
 .mb-very-thin-spacing{
     margin-bottom: 2px;
@@ -167,9 +167,17 @@ h1 {
     padding: 20px 40px;
 }
 
-.task-container div {
-    margin-bottom: 15px;
+.task-container > div {
+    margin-bottom: 20px;
     margin-left: 5px;
+}
+
+.task-container > div > div {
+    margin-bottom: 10px;
+}
+
+.task-container h2 {
+    margin-bottom: 10px;
 }
 
 .buttons-container{
