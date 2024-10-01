@@ -39,7 +39,7 @@ body {
 }
 
 .text-smaller {
-    font-size: .8rem;
+    font-size: .7rem;
 }
 
 .text-sm {
@@ -93,12 +93,12 @@ body {
 }
 
 /* block elements structure */
-.bd-radius-15 {
-    border-radius: 15px;
+.bd-radius-12 {
+    border-radius: 12px;
 }
 
-.bd-radius-8 {
-    border-radius: 8px;
+.bd-radius-6 {
+    border-radius: 6px;
 }
 
 .bd-radius-full {
