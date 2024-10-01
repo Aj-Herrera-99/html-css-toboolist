@@ -56,12 +56,11 @@ body {
 
 /* bg-color */
 .bg-light-grey {
-    background-color: #D8DCDF;
-    ;
+    background-color: #e5e9eb;
 }
 
 .bg-grey {
-    background-color: grey;
+    background-color: #c3c7ca;
 }
 
 .bg-white {
@@ -110,7 +109,7 @@ body {
 }
 
 .border-grey {
-    border: 2px solid grey;
+    border: 2px solid #c3c7ca;
 }
 
 .border-green {
@@ -131,15 +130,14 @@ body {
     text-align: center;
     line-height: 20px;
 }
-
-.mt-medium-spacing{
-    margin-top: 20px;
-}
 .mb-large-spacing{
     margin-bottom: 80px;
 }
 .mb-medium-spacing{
     margin-bottom: 25px;
+}
+.mb-very-thin-spacing{
+    margin-bottom: 2px;
 }
 .ml-medium-spacing{
     margin-left: 20px;
@@ -165,7 +163,7 @@ h1 {
 .list-container {
     /* border: 2px solid green; */
     max-width: 700px;
-    margin: 0 auto;
+    margin-inline: auto;
     padding: 20px 40px;
 }
 
